@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description></description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Classic Email</name>
+    <Name>Classic Email</Name>
+    <style>none</style>
+    <subject>Welcome from Ursa Major Solar!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
