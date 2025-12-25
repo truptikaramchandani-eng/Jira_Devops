@@ -1,0 +1,23 @@
+<aura:component implements="flexipage:availableForAllPageTypes"
+                access="global">
+
+    <aura:attribute name="showMessage" type="Boolean" default="false"/>
+
+    <div class="box">
+        <h2>Standalone Aura Component</h2>
+
+        <p>
+            This Aura component has
+            <strong>no Apex and no dependency</strong>.
+        </p>
+
+        <lightning:button
+            label="Toggle Message"
+            onclick="{!c.toggle}" />
+
+        <aura:if isTrue="{!v.showMessage}">
+            <p class="msg">🎉 Message shown using Aura only.</p>
+        </aura:if>
+    </div>
+
+</aura:component>
