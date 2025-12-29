@@ -1,0 +1,30 @@
+<apex:page >
+    <h1 style="font-family: Arial; color: #16325c;">
+        Welcome to Salesforce
+    </h1>
+
+    <p>
+        This is a <strong>standalone Visualforce page</strong> with
+        <em>no Apex controller or dependency</em>.
+    </p>
+
+    <hr/>
+
+    <h2>Basic Form (Static)</h2>
+
+    <form>
+        <label>Name:</label><br/>
+        <input type="text" placeholder="Enter your name"/><br/><br/>
+
+        <label>Email:</label><br/>
+        <input type="email" placeholder="Enter your email"/><br/><br/>
+
+        <input type="submit" value="Submit"/>
+    </form>
+
+    <hr/>
+
+    <p style="font-size: 12px; color: gray;">
+        © Salesforce Visualforce Demo
+    </p>
+</apex:page>
